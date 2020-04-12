@@ -350,7 +350,8 @@ footer {
     height: 100vh;
     min-height: 500px;
     max-height: 1080px;
-    background: url(../images/lead-bg.jpg);
+    // background: url(../images/lead-bg.jpg);
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
     background-size: cover;
     padding: 15px;
     overflow: hidden;

@@ -48,9 +48,9 @@
 
     <div id="lead">
         <div id="lead-content">
-            <h1>Ryan Fitzgerald</h1>
-            <h2>Software Engineer</h2>
-            <a href="#" class="btn-rounded-white">Download Resume</a>
+            <h1>Nick Huang</h1>
+            <h2>Software Engineering Student</h2>
+            <a href="images\Huang_Nicholas_Resume.pdf" download="resume.pdf" class="btn-rounded-white">Download Resume</a>
         </div>
         <!-- End #lead-content -->
 
@@ -62,7 +62,11 @@
             </span>
         </div>
         <!-- End #lead-down -->
+        <canvas id="demo-canvas"></canvas>
     </div>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/TweenLite.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/EasePack.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo.js"></script>
     <!-- End #lead -->
 
     <div id="about">
@@ -73,9 +77,7 @@
                 </div>
                 <div class="col-md-8">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat. Donec
-                        eu vehicula neque. Donec viverra lorem nunc, tempus euismod eros sollicitudin ut. Quisque et tincidunt libero. Donec id pharetra justo. Proin euismod lacinia dolor, eu scelerisque justo tempus pharetra. Vivamus nunc justo, finibus
-                        ut nisl sed, euismod rhoncus nulla. Proin sed magna egestas, egestas ante et, congue eros. In consequat, mauris dapibus tincidunt suscipit, ex libero aliquet diam, at maximus risus enim non leo.
+                        Hi there! I'm studying Computer Science at the University of Michigan and I enjoy building personal projects in my free time. Professionally, I've created iOS and Android applications for Ford Motor Company, as well as a web-service for a F100 airline company. I also conduct machine learning research with a professor to optimize terrain classification for autonomous vehicles. I'm passionate about applying my software skills toward creating positive impacts on the lives of everyday people, whether that's through an app, a website, or a unique tool.
                     </p>
                 </div>
             </div>
@@ -86,27 +88,28 @@
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
+
+            <div data-date="October 2019 – Present">
+                <h3>ROAHM Lab</h3>
+                <h4>Machine Learning Research Assistant</h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                    In my remote work for ROAHM Lab, I first utilized a webscraper to harvest images of different types of terrain from Google images, as well as a video scraper to capture images every 30 seconds from videos of dashboard cameras. Using these images, I trained a convolutional neural network to classify an "icy road" from other types of terrain. From there, I tuned a generative adversarial network to produce new images of icy roads, effectively testing the accuracy of the CNN.
                 </p>
             </div>
 
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
+            <div data-date="September 2019 - Present">
+                <h3>Nexecon Consulting Group</h3>
+                <h4>Technology Consultant</h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                    With Nexecon Consulting Group, my work as a technology analyst has allowed me to work with several high-profile Fortune 500 clients. In one of these projects, I developed a software tool to minimize delays at an international airport by tracking previous flight data and predicting delay chance percentages for future flights, using parameters such as the gate layout. My team and I developed back-end logic as well as a front-end service, that is scheduled to be integrated to our client's servers in the coming months. 
                 </p>
             </div>
 
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
+            <div data-date="May 2019 – August 2019">
+                <h3>Ford Motor Company</h3>
+                <h4>Software Developer Intern</h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                    During my time at Ford, I worked on building iOS and Android applications that could control automobile functions remotely, such as starting and stopping vehicles. The applications both utilized Oauth security measures and stored accounts and preferences locally on a device to protect privacy. They are now used internally to help developers find bugs in different Ford servers, and are used externally to showcase Ford API functionalities to potential clients.
                 </p>
             </div>
         </div>
@@ -116,28 +119,18 @@
     <div id="education">
         <h2 class="heading">Education</h2>
         <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-            </p>
-        </div>
-        <!-- End .education-block -->
-
-        <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
+            <h3>University of Michigan</h3>
+            <span class="education-date">September 2019 - Present</span>
+            <h4>Bachelor of Science, Engineering in Computer Science</h4>
             <ul>
                 <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    GPA: 3.78/4.00
                 </li>
                 <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Relevant Coursework: Machine Learning, Data Structures and Algorithms, Introduction to Computer Organization, Foundations of Computer Science
                 </li>
                 <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Honors: Dean's List, National Merit Finalist Scholarship Winner, ABC News Best and Brightest Award, National AP Scholar
                 </li>
             </ul>
         </div>
@@ -155,11 +148,11 @@
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
+                        <h3>AIM Fitness</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            An iOS application that centers around optimizing user health and fitness by providing a one-month meal and workout plan. This plan is calculated via an algorithm which outputs unique plans for each user based on a number of body type metrics, current activity, and future goals. 
                         </p>
-                        <a href="#">View Project</a>
+                        <a href="https://github.com/nickhuang25/Fitness">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -171,11 +164,11 @@
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
+                        <h3>Queens</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                        </p>
-                        <a href="#">View Project</a>
+                            This project was created in conjunction with a non-profit organization, We Are Queens. This app will serve as a social media interface and personal tracker for participants in the Queens movement to post about their daily GAP reflections. As the Product Manager, I designed the high level structure of the app, as well as built the Storyboard and front-end functionality.                       
+                         </p>
+                        <a href="https://github.com/nickhuang25/Queens-App">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -190,30 +183,14 @@
         <ul>
             <li>JavaScript</li>
             <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
             <li>React</li>
-            <li>Elixir</li>
             <li>Java</li>
             <li>C</li>
-            <li>C#</li>
             <li>C++</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
+            <li>Swift</li>
+            <li>MATLAB</li>
+            <li>HTML</li>
+            <li>CSS</li>
         </ul>
     </div>
     <!-- End #skills -->
@@ -221,7 +198,7 @@
     <div id="contact">
         <h2>Get in Touch</h2>
         <div id="contact-form">
-            <form method="POST" action="https://formspree.io/email@email.com">
+            <form method="POST" action="https://formspree.io/ncchuang@umich.edu">
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
                 <input type="email" name="_replyto" placeholder="Your email" required>
                 <textarea name="message" placeholder="Your message" required></textarea>
@@ -237,7 +214,7 @@
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; 2020 YOUR NAME
+                        Copyright &copy; 2020 Nick Huang
                     </p>
                 </div>
                 <div class="col-sm-2 top">
@@ -248,22 +225,10 @@
                 <div class="col-sm-5 social">
                     <ul>
                         <li>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            <a href="https://github.com/nickhuang25" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/nicholas-huang-133a18174/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </li>
                     </ul>
                 </div>
