@@ -345,7 +345,7 @@ footer {
     --------------------------
 */
 
-#lead {
+#large-header {
     position: relative;
     height: 100vh;
     min-height: 500px;
@@ -805,7 +805,7 @@ footer {
     border-top: 1px solid $border;
 
     h2 {
-        color: $heading;
+        color: #112D32;
     }
 }
 
@@ -814,7 +814,7 @@ footer {
     margin: 0 auto 30px auto;
     padding: 15px;
     border: 1px solid $border;
-    background: #fff;
+    background: #112D32;
     text-align: left;
 
     h3 {
