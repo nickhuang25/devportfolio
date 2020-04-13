@@ -34,19 +34,19 @@
 */
 
 // Define base and accent colors
-$base-color: #FF652F;
+$base-color: #20B2AA;
 $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
 $background: #272727;
-$background-alt: #747474;
+$background-alt: #254E58;
 
 // Define border colors
-$border: #FFE400;
+$border:#88BDBC;
 
 // Define text colors
-$heading: #FF652F;
-$text: #14A76C;
+$heading: #F0FFF0;
+$text: #F0FFF0;
 
 /*
     ---------------------
@@ -447,7 +447,8 @@ footer {
 
 #about {
     padding: 75px 15px;
-    border-bottom: 1px solid $border;
+    // border-bottom: 1px solid $border;
+    background-color: #112D32;
 
     h2 {
         color: $heading;
@@ -468,7 +469,7 @@ footer {
 #experience {
     padding: 50px 15px;
     text-align: center;
-    border-bottom: 1px solid $border;
+    // border-bottom: 1px solid $border;
 
     h2 {
         color: $heading;
@@ -507,8 +508,8 @@ footer {
 
 .vtimeline-content {
     margin-left: 350px;
-    background: #fff;
-    border: 1px solid #e6e6e6;
+    background: $base-color;
+    // border: 1px solid #e6e6e6;
     padding: 15px;
     border-radius: 3px;
     text-align: left;
@@ -524,7 +525,7 @@ footer {
     h4 {
         font-size: 1.2em;
         font-weight: 300;
-        color: #7e8890;
+        color: #2F4F4F;
         margin: 0 0 15px 0;
     }
 
@@ -567,7 +568,7 @@ footer {
     left: 0;
     top: 10px;
     font-weight: 300;
-    color: #374054;
+    color: $base-color;
 }
 
 /*
@@ -578,8 +579,9 @@ footer {
 
 #education {
     padding: 50px 15px 20px 15px;
-    border-bottom: 1px solid $border;
+    // border-bottom: 1px solid $border;
     text-align: center;
+    background-color: #112D32;
 
     h2 {
         color: $heading;
@@ -591,8 +593,10 @@ footer {
     max-width: 700px;
     margin: 0 auto 30px auto;
     padding: 15px;
-    border: 1px solid $border;
+    // border: 1px solid $border;
     text-align: left;
+    background-color: $base-color;
+    border-radius: 3px;
 
     h3 {
         font-weight: 500;
@@ -632,7 +636,7 @@ footer {
 
 #projects {
     padding: 50px 15px;
-    border-bottom: 1px solid $border;
+    // border-bottom: 1px solid $border;
     text-align: center;
 
     h2 {
@@ -646,8 +650,9 @@ footer {
     max-width: 900px;
     margin: 0 auto 30px auto;
     overflow: hidden;
-    background: #fff;
-    border-radius: 4px;
+    // background: #fff;
+    background-color: $base-color;
+    border-radius: 3px;
 }
 
 .project-image {
@@ -697,6 +702,7 @@ footer {
 #skills {
     padding: 50px 15px;
     text-align: center;
+    background-color: #112D32;
 
     h2 {
         color: $heading;
@@ -730,7 +736,7 @@ footer {
 
 #contact {
     padding: 50px 15px;
-    background: $base-color;
+    background: #FF6347;
     text-align: center;
 
     h2 {
